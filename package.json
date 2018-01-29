@@ -1,0 +1,32 @@
+{
+  "name": "@qtk/notification-service",
+  "version": "1.0.0",
+  "description": "notification service",
+  "main": "index.js",
+  "bin": {
+    "notification_service": "bin/notification_service"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayanywhere/qtk-notification-service.git"
+  },
+  "keywords": [
+    "notification",
+    "service"
+  ],
+  "author": "ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayanywhere/qtk-notification-service/issues"
+  },
+  "homepage": "https://github.com/rayanywhere/qtk-notification-service#readme",
+  "dependencies": {
+    "@qtk/schema-tcp-framework": "^1.0.6",
+    "log4js": "^2.5.2",
+    "opts": "^1.2.6",
+    "uuid": "^3.2.1"
+  }
+}
