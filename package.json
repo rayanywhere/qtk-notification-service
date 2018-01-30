@@ -1,6 +1,6 @@
 {
   "name": "@qtk/notification-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "notification service",
   "main": "index.js",
   "bin": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/rayanywhere/qtk-notification-service#readme",
   "dependencies": {
-    "@qtk/schema-tcp-framework": "^1.0.6",
+    "@qtk/schema-tcp-framework": "^1.0.7",
     "log4js": "^2.5.2",
     "opts": "^1.2.6",
     "uuid": "^3.2.1"
